@@ -62,7 +62,7 @@ async function Searchditails(){
     result.data.forEach(element => {
         // console.log(element);
         // div created
-      addData += ` <div class="jsCard" style="width:30%; border:2px solid green; display:flex;flex-direction:row;"> 
+      addData += ` <div class="jsCard" style="width:30%;padding:20px;flex-wrap:wrap; justify-content: space-between; margin:20px;flex-direction: row;"> 
       <img src="${element.image}" alt"phone" >
       <h3>${element.phone_name}</h3>
       <p>There are many variations of passages of available, but the majority have suffered</p>
